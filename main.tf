@@ -84,7 +84,7 @@ resource "aws_eip" "eip" {
 }
 
 resource "aws_instance" "ec2_terraform" {
- ami = "ami-08962a4068733a2b6"
+ ami = "ami-04505e74c0741db8d"
  instance_type = "t2.micro"
  availability_zone = "us-east-2a"
  key_name = "terraform"
